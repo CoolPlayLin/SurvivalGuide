@@ -29,9 +29,9 @@
 - 逆天夜鹿厨(LXY)
 - XA
 - ZYH
-- ALRCMt(HXM)
+- [ALRCMt(HXM)](https://github.com/ALRCMt)
 - ZMM
-- LWR
+- [LWR](https://github.com/aro973)
 - LYR
 
 **2023级**
