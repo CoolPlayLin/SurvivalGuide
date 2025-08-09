@@ -1,0 +1,42 @@
+name: "问题反馈"
+description: 发现指南存在问题，我要反馈！
+labels: ["问题 bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你向我们反馈！我们将进一步核实并尽快给出反馈。
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "请描述你发现的问题"
+      placeholder: "在这里详细描述你发现的问题..."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-text
+    attributes:
+      label: "补充说明"
+      placeholder: "在这里详细描述你想要添加的新内容..."
+    validations:
+      required: false
+  - type: input
+    id: identification
+    attributes:
+      label: 你的班级或年级（非必填）
+      description: 如果你的反馈得到我们核实，你的名字将出现在最新的生存指南中。
+      placeholder: 请输入内容
+    validations:
+      required: false
+  - type: checkboxes
+    id: checkboxes
+    attributes:
+      label: Validations
+      description: 在提交议题之前，请确认以下事宜
+      options:
+        - label: 我确认这是最新版中没有修正的
+          required: true
+        - label: 我并未在议题中发现与此相关的
+          required: true
+        - label: 我确信我所提供的反馈是存在的
+          required: true
