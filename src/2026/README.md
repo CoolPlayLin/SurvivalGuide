@@ -4,6 +4,8 @@
 
 > [DeepSeek分析意见建议](./suggestion_deepseek.md)
 
+> [ChatGPT分析意见建议](./suggestion_chatgpt.md)
+
 ## 再版计划
 
 - 内容
