@@ -2,9 +2,9 @@
 
 > [读者意见反馈调查收集](https://docs.qq.com/sheet/DUVNITEdreVpFTkN6?tab=ss_d64ex2)
 
-> [DeepSeek 分析意见建议](./suggestion_deepseek.md)
-
 > [“疑问解答”模块问题收集](./questions_collection.md)
+
+> [DeepSeek 分析意见建议](./suggestion_deepseek.md)
 
 > [ChatGPT 分析意见建议](./suggestion_chatgpt.md)
 
@@ -23,6 +23,8 @@
 7. 增加作息时间表、课程表
 8. 删除指南中所有对老师的带有主观性质的评价
 9. 增加高二分班考尖子班的内容
+10. “住”模块补充床的尺寸
+11. 增加学校对男女外表的规定
 
 - 布局
 
@@ -34,4 +36,3 @@
 1. 任命 2318 ZYR 担任主编职位
 2. 任命 2211 朱卫杰 担任主编职位
 3. 调整 2424 010 的职位为副主编
-
