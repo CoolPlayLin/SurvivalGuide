@@ -2,6 +2,10 @@
 
 > [“疑问解答”模块问题收集结果](https://docs.qq.com/sheet/DUVdsSmJjc2xrTmFa?tab=ss_5u2oql&viewId=fv1)
 
+## 未解答
+
+问：开学第一天如果不小心带了与学习无关的书籍之类有没有影响
+
 ## 已解答（未写入）
 
 问：话说能带那种机器表吗？
