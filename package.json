@@ -1,0 +1,28 @@
+{
+  "name": "survivalguide",
+  "version": "2026.0.0",
+  "description": "A comprehensive, practical, and heartwarming survival guide aimed at helping newcomers adapt to life at Peach One more quickly and effectively.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoolPlayLin/SurvivalGuide.git"
+  },
+  "author": "the Compilation and Review Committee of the Survival Guide of the No.1 High School of Taoyuan, Hunan",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CoolPlayLin/SurvivalGuide/issues"
+  },
+  "homepage": "https://github.com/CoolPlayLin/SurvivalGuide#readme",
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "devDependencies": {
+    "vitepress": "2.0.0-alpha.12"
+  },
+  "dependencies": {
+    "vue": "^3.5.19"
+  }
+}
