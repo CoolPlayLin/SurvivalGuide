@@ -1,6 +1,6 @@
 # ”疑问解答“模块问题收集
 
-> [“疑问解答”模块问题收集结果](https://docs.qq.com/sheet/DUVdsSmJjc2xrTmFa?tab=ss_5u2oql&viewId=fv1)
+> [“疑问解答”模块问题收集结果](https://docs.qq.com/sheet/DUVdsSmJjc2xrTmFa)
 
 ## 未解答
 

@@ -1,10 +1,4 @@
-> [读者意见反馈调查收集](https://docs.qq.com/sheet/DUVNITEdreVpFTkN6?tab=ss_d64ex2)
-
-> [“疑问解答”模块问题收集](./questions_collection.md)
-
-> [DeepSeek 分析意见建议](./suggestion_deepseek.md)
-
-> [ChatGPT 分析意见建议](./suggestion_chatgpt.md)
+> [读者意见反馈调查收集](https://docs.qq.com/sheet/DUVNITEdreVpFTkN6)
 
 # 再版计划
 
