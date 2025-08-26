@@ -40,6 +40,32 @@ function sidebar(): DefaultTheme.SidebarItem[] {
   ];
 }
 
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    {
+      text: "意见反馈",
+      link: "https://docs.qq.com/form/page/DUU5UTm5ISmhDSENB",
+      target: "_blank",
+    },
+    {
+      text: "问题收集",
+      link: "https://docs.qq.com/form/page/DUUJDUk9LeGZEZnNW",
+      target: "_blank",
+    },
+  ];
+}
+
+function socialLinks(): DefaultTheme.SocialLink[] {
+  return [
+    { icon: "github", link: "https://github.com/CoolPlayLin/SurvivalGuide" },
+    { icon: "afdian", link: "https://afdian.com/a/CoolPlayLin" },
+    {
+      icon: "qq",
+      link: "https://qun.qq.com/universal-share/share?ac=1&authKey=Njo%2BuKnrdoPL8gJO3dfctcjax67miYQ6inbH7dwExMi155BcfMqGwPnpv4eKzTFk&busi_data=eyJncm91cENvZGUiOiI5ODA0NzQzMTQiLCJ0b2tlbiI6InVWNStQckp0SHpoQmRsWkN3RW5CTW9iMHZkSUZGUWdWb01BeG5Qa3FjL2VvaCtYTzR3TjUzRDFoSnlYVTQvOWgiLCJ1aW4iOiIxMTMwNTExMzY2In0%3D&data=Q4BBBnylM6D7csSzi_hlGYeIxhbNNofxx4ISrxgNE1yScpRtCfgobl5blRg5ItdqylXCXSVG1DRSg0DtPN4NFw&svctype=4&tempid=h5_group_info",
+    },
+  ];
+}
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "桃源一中生存指南编审委员会",
@@ -50,25 +76,12 @@ export default defineConfig({
   head: [["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      {
-        text: "意见反馈",
-        link: "https://docs.qq.com/form/page/DUU5UTm5ISmhDSENB",
-        target: "_blank",
-      },
-      {
-        text: "问题收集",
-        link: "https://docs.qq.com/form/page/DUUJDUk9LeGZEZnNW",
-        target: "_blank",
-      },
-    ],
+    nav: nav(),
 
     sidebar: {
       "/": { base: "/", items: sidebar() },
     },
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/CoolPlayLin/SurvivalGuide" },
-    ],
+    socialLinks: socialLinks(),
   },
 });
