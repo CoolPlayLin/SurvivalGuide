@@ -35,6 +35,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "关于桃源一中生存指南", link: "what-is-guide" },
         { text: "关于编审委员会", link: "about-us" },
+        { text: "项目许可证", link: "license" },
       ],
     },
   ];
@@ -95,6 +96,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav(),
+    footer: {
+      message: "根据 GPL 3.0 许可证发布",
+      copyright: "版权所有 (C) 2025 桃源一中生存指南编审委员会",
+    },
 
     sidebar: {
       "/": { base: "/", items: sidebar() },
