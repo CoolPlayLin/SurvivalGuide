@@ -1,28 +1,11 @@
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+import members from "./members.json"
+</script>
+
 # 关于编审委员会
 
 项目最初由 2024 级 010 发起，编审委员会完全由其组织，主要包括了 2024 级、2023 级、2022 级、2021 级的学长学姐，同时，我们也邀请了 2025 级的新生参与到生存指南的编审工作之中
-
-## 人员组成
-
-**2025 级**
-
-YMC、ZQ、TSY、ZJQ、LSY、HS、LXY
-
-**2024 级**
-
-010(LYL)、AL(LXH)、LHZ、YZH、Eternity(LSM)、Aurora(MZX)、小鲨鱼(XYB)、逆天夜鹿厨(LXY)、XA、ZYH、[ALRCMt(HXM)](https://github.com/ALRCMt)、ZMM、[LWR](https://github.com/aro973)、LYR
-
-**2023 级**
-
-图图(CL)、ZYR
-
-**2022 级**
-
-朱卫杰、向泽春、文婉霖、望舒、Gye、HJ
-
-**2021 级**
-
-李女士(JJY)
 
 ## 拟定人员调整
 
@@ -62,3 +45,7 @@ YMC、ZQ、TSY、ZJQ、LSY、HS、LXY
     </tr>
   </tbody>
 </table>
+
+## 团队成员
+
+<VPTeamMembers size="small" :members />

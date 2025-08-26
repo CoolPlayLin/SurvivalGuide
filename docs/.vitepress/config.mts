@@ -73,6 +73,11 @@ export default defineConfig({
     "一本全面、实用、暖心的生存指南，致力于让新生更快、更好地适应桃一生活",
   lastUpdated: true,
   cleanUrls: true,
+  metaChunk: true,
+  lang: "zh-CN",
+  sitemap: {
+    hostname: "https://guide.euphorialog.top",
+  },
   head: [["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
