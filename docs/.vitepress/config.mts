@@ -78,7 +78,20 @@ export default defineConfig({
   sitemap: {
     hostname: "https://guide.euphorialog.top",
   },
-  head: [["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]],
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/favicon.ico",
+      },
+    ],
+    [
+      "meta",
+      { name: "msvalidate.01", content: "0B23542F56082DDBA9BB336BBF15D368" },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav(),
