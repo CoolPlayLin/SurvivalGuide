@@ -3,7 +3,16 @@
     "avatar": "/members/2024LYL.jpg",
     "name": "010",
     "title": "主编",
-    "links": [{ "icon": "github", "link": "https://github.com/CoolPlayLin" }]
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/CoolPlayLin"
+      },
+      {
+        "icon": "bilibili",
+        "link": "https://space.bilibili.com/1595094514"
+      }
+    ]
   },
   {
     "avatar": "/members/2022ZWJ.jpg",
@@ -36,6 +45,21 @@
     "title": "编写组"
   },
   {
+    "avatar": "/members/2022Gye.jpg",
+    "name": "Gye",
+    "title": "编写组"
+  },
+  {
+    "avatar": "/members/2022XZC.jpg",
+    "name": "向泽春",
+    "title": "编写组"
+  },
+  {
+    "avatar": "/members/2022WS.jpg",
+    "name": "望舒",
+    "title": "编写组"
+  },
+  {
     "avatar": "/members/2024MZX.jpg",
     "name": "MZX",
     "title": "编写组"
@@ -43,12 +67,18 @@
   {
     "avatar": "/members/2024LXY.jpg",
     "name": "逆天夜鹿厨",
-    "title": "审订组"
+    "title": "编写组"
+  },
+  {
+    "avatar": "/members/2024LWR.jpg",
+    "name": "アロ Nova-Crazy-",
+    "title": "编写组"
   },
   {
     "avatar": "/members/2024HXM.jpg",
     "name": "ALRCMt",
-    "title": "审订组"
+    "title": "审订组",
+    "links": [{ "icon": "github", "link": "https://github.com/ALRCMt" }]
   },
   {
     "avatar": "/members/2024XA.jpg",
@@ -73,6 +103,41 @@
   {
     "avatar": "/members/2024LYR.jpg",
     "name": "LYR",
+    "title": "审订组"
+  },
+  {
+    "avatar": "/members/2025YMC.jpg",
+    "name": "YMC",
+    "title": "审订组"
+  },
+  {
+    "avatar": "/members/2025TSY.jpg",
+    "name": "TSY",
+    "title": "审订组"
+  },
+  {
+    "avatar": "/members/2025LSY.jpg",
+    "name": "LSY",
+    "title": "审订组"
+  },
+  {
+    "avatar": "/members/2025LXY.jpg",
+    "name": "LXY",
+    "title": "审订组"
+  },
+  {
+    "avatar": "/members/2025ZJQ.jpg",
+    "name": "ZJQ",
+    "title": "审订组"
+  },
+  {
+    "avatar": "/members/2025HS.jpg",
+    "name": "HS",
+    "title": "审订组"
+  },
+  {
+    "avatar": "/members/2025ZQ.jpg",
+    "name": "ZQ",
     "title": "审订组"
   }
 ]
